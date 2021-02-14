@@ -78,7 +78,7 @@ const createSlider = () => {
   imagesArea.style.display = 'none';
   const duration = document.getElementById('duration').value || 3000;
   if (duration < 0) {
-    alert("Slider Duration Cannot be Negative. Please, Enter a Positive Value!")
+    alert("Slider Duration time Cannot be Negative!")
     return;
   } else {
     sliders.forEach(slide => {
